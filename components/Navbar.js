@@ -13,7 +13,7 @@ const NavBar = () => {
     }
 
     return(
-        <div className='fixed w-full h-20 shadow-xl z-[100]'>
+        <div className='fixed w-full h-20 shadow-xl z-[100] bg-[#131212]'>
 
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 
@@ -23,27 +23,27 @@ const NavBar = () => {
 
                 <div className=''>
                     <ul className='hidden md:flex'>
-                        <Link href='/'>
+                        <Link href='/#main'>
                             <li className='ml-10 text-sm uppercase hover:border-b cursor-pointer'>Inicio
                             </li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#about'>
                             <li className='ml-10 text-sm uppercase hover:border-b  cursor-pointer'>Sobre mí
                             </li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#skills'>
                             <li className='ml-10 text-sm uppercase hover:border-b  cursor-pointer'>Habilidades
                             </li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#projects'>
                             <li className='ml-10 text-sm uppercase hover:border-b  cursor-pointer'>Proyectos
                             </li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#blog'>
                             <li className='ml-10 text-sm uppercase hover:border-b  cursor-pointer'>Blog
                             </li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#contact'>
                             <li className='ml-10 text-sm uppercase hover:border-b  cursor-pointer'>Contacto
                             </li>
                         </Link>

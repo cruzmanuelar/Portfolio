@@ -7,12 +7,13 @@ import ImagenTrello from '../public/assets/trello-tile.svg';
 import ImagenNext from '../public/assets/next-icon.webp';
 import ImagenPostman from '../public/assets/getpostman-icon.svg';
 import ImagenFigma from '../public/assets/figma-icon.svg';
+import ImagenSass from '../public/assets/sass-lang-icon.svg';
 
 const Skills = () => {
   return (
-    <div className='w-full h-screen'>
+    <div id='skills' className='w-full h-screen'>
 
-        <div className='text-center'>
+        <div className='text-center pt-20'>
             <h1 className='uppercase'>
                 Habilidades
             </h1>
@@ -23,18 +24,19 @@ const Skills = () => {
             <div className='w-100'>
                 <h3 className='text-center my-5'>Programación</h3>
                 <div className='flex'>
+
                     <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300'>
                         <Image
-                        src={ImagenReact}
+                        src={ImagenJS}
                         alt='/'
                         width='80'
                         height='80'
                         />
                     </div>
-
+                    
                     <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300'>
                         <Image
-                        src={ImagenJS}
+                        src={ImagenReact}
                         alt='/'
                         width='80'
                         height='80'
@@ -52,7 +54,7 @@ const Skills = () => {
 
                     <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300'>
                         <Image
-                        src={ImagenGit}
+                        src={ImagenSass}
                         alt='/'
                         width='80'
                         height='80'
@@ -100,7 +102,6 @@ const Skills = () => {
                         height='80'
                         />
                     </div>
-
 
                 </div>
             </div>

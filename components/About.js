@@ -4,7 +4,7 @@ import Foto from '../public/assets/Foto.png'
 
 const About = () => {
   return (
-    <div className='flex flex-col md:space-between md:flex-row items-center justify-center w-full h-screen md:px-20'>
+    <div id='about' className='flex flex-col md:space-between md:flex-row items-center justify-center w-full h-screen md:px-20'>
 
         <div className='hidden w-1/2'>
             <Image
@@ -18,7 +18,7 @@ const About = () => {
         </div>
 
 
-        <div className='w-2/3 md:w-1/2 bg-[#282727] shadow-xl p-6 rounded-md
+        <div className='mt-20 w-2/3 md:w-1/2 bg-[#282727] shadow-xl p-6 rounded-md
         flex flex-col justify-center items-center px-10'>
             <h1 className='text-center my-4'>SOBRE MI</h1>
             <p className='my-4'>
