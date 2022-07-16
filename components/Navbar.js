@@ -54,7 +54,7 @@ const NavBar = () => {
                 </div>
 
 
-                <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-[#323232]' : ''}>
+                <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen ' : ''}>
                     <div className={nav
                             ? 'fixed left-0 top-0 w-[70%] sm:w-[50%] md:w-[30%] h-screen bg-[#141414] p-10 ease-in duration-500'
                             : 'fixed left-[-200%] top-0 p-10 ease-in duration-500'}>
@@ -71,28 +71,28 @@ const NavBar = () => {
                         </div>
                         <div className='py-4 flex flex-col'>
                             <ul className='uppercase'>
-                                <Link href='/'>
-                                    <li className='py-4 text-sm'>Inicio
+                                <Link href='/#main'>
+                                    <li className='py-4 text-sm  cursor-pointer'>Inicio
                                     </li>
                                 </Link>
-                                <Link href='/'>
-                                    <li className='py-4 text-sm'>Sobre mí
+                                <Link href='/#about'>
+                                    <li className='py-4 text-sm cursor-pointer'>Sobre mí
                                     </li>
                                 </Link>
-                                <Link href='/'>
-                                    <li className='py-4 text-sm'>Habilidades
+                                <Link href='/#skills'>
+                                    <li className='py-4 text-sm cursor-pointer'>Habilidades
                                     </li>
                                 </Link>
-                                <Link href='/'>
-                                    <li className='py-4 text-sm'>Proyectos
+                                <Link href='/#projects'>
+                                    <li className='py-4 text-sm cursor-pointer'>Proyectos
                                     </li>
                                 </Link>
-                                <Link href='/'>
-                                    <li className='py-4 text-sm'>Blog
+                                <Link href='/#blog'>
+                                    <li className='py-4 text-sm cursor-pointer'>Blog
                                     </li>
                                 </Link>
-                                <Link href='/'>
-                                    <li className='py-4 text-sm'>Contacto
+                                <Link href='/#contact'>
+                                    <li className='py-4 text-sm cursor-pointer'>Contacto
                                     </li>
                                 </Link>
                             </ul>

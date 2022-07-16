@@ -16,7 +16,7 @@ const Blog = () => {
 
       <div className='flex flex-col md:space-between md:flex-row items-center justify-center'>
 
-        <div className='w-1/2'>
+        <div className='hidden md:flex w-1/2'>
             <Image
               src={ImagenPython}
               alt='/'
@@ -38,11 +38,10 @@ const Blog = () => {
               height='250'
             />
 
-            <a target="_blank" href='https://www.instagram.com/codigo.python/'  className="border-2 border-slate-300 hover:border-slate-200 my-2 p-2 px-8 w-100">
+            <a target="_blank" href='https://www.instagram.com/codigo.python/'  className="border-2 min-w-max border-slate-300 hover:border-slate-200 my-2 p-2 px-8 w-100">
               Ir a @codigo.python
             </a>
         </div>
-
 
         </div>
     </div>

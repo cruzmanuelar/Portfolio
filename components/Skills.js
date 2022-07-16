@@ -10,19 +10,21 @@ import ImagenFigma from '../public/assets/figma-icon.svg';
 import ImagenSass from '../public/assets/sass-lang-icon.svg';
 
 const Skills = () => {
+
+
   return (
-    <div id='skills' className='w-full h-screen'>
+    <div id='skills' className=''>
 
-        <div className='text-center pt-20'>
-            <h1 className='uppercase'>
-                Habilidades
-            </h1>
-        </div>
+        <div className='flex flex-col md:space-between md:flex-col justify-center items-center w-full h-screen md:px-30'>
 
-        <div className='flex flex-col md:space-between md:flex-col items-center w-full h-screen md:px-30'>
+            <div className='text-center'>
+                <h1 className='uppercase'>
+                    Habilidades
+                </h1>
+            </div>
 
             <div className='w-100'>
-                <h3 className='text-center my-5'>Programación</h3>
+                <h3 className='text-center my-2'>Programación</h3>
                 <div className='flex'>
 
                     <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300'>
