@@ -39,7 +39,7 @@ const Blog = () => {
               className='rounded-sm'
             />
 
-            <a target="_blank" href='https://www.instagram.com/codigo.python/'  className="border-2 min-w-max bg-[#1f1d1d] border-slate-300 hover:border-slate-200 my-2 p-2 px-8 w-100 cursor-pointer hover:scale-x-105 ease-in duration-200 hover:bg-slate-300 hover:text-black">
+            <a target="_blank" rel="noreferrer" href='https://www.instagram.com/codigo.python/'  className="border-2 min-w-max bg-[#1f1d1d] border-slate-300 hover:border-slate-200 my-2 p-2 px-8 w-100 cursor-pointer hover:scale-x-105 ease-in duration-200 hover:bg-slate-300 hover:text-black">
               Ir a @codigo.python
             </a>
         </div>

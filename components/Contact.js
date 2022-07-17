@@ -51,16 +51,16 @@ const Contact = () => {
       </div>
 
       <div className="flex flex-row justify-center space-x-4 my-3">
-        <a href="https://www.linkedin.com/in/cruzmanuelar/" target='_blank' className="rounded-full shadow-sm shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+        <a href="https://www.linkedin.com/in/cruzmanuelar/" rel="noreferrer"  target='_blank' className="rounded-full shadow-sm shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
           <FaLinkedinIn />
         </a>
-        <a href="https://github.com/cruzmanuelar" target='_blank' className="rounded-full shadow-sm shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+        <a href="https://github.com/cruzmanuelar" target='_blank' rel="noreferrer" className="rounded-full shadow-sm shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
           <FaGithub />
         </a>
-        <a href="#contact" className="rounded-full shadow-sm shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+        <a href="#contact" rel="noreferrer" className="rounded-full shadow-sm shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
           <AiOutlineMail />
         </a>
-        <a href="https://www.instagram.com/codigo.python/" target='_blank'  className="rounded-full shadow-sm shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+        <a href="https://www.instagram.com/codigo.python/" target='_blank'  rel="noreferrer" className="rounded-full shadow-sm shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
           <AiFillInstagram />
         </a>
       </div>
