@@ -1,6 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
-import ImagenProyecto from '../public/assets/projects/web3.jpg';
 
 const Projects = () => {
   return (
