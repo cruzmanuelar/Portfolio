@@ -28,7 +28,7 @@ const Skills = () => {
                 <h3 className='text-center my-5'>Programación</h3>
                 <div className='flex'>
 
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-200 hover:scale-105'>
+                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p:1 md:p-2 hover:shadow-slate-300/60 ease-in duration-200 hover:scale-105'>
                         <Image
                         src={ImagenJS}
                         alt='/'
@@ -37,7 +37,7 @@ const Skills = () => {
                         />
                     </div>
                     
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-200 hover:scale-105'>
+                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p:1 md:p-2 hover:shadow-slate-300/60 ease-in duration-200 hover:scale-105'>
                         <Image
                         src={ImagenReact}
                         alt='/'
@@ -46,7 +46,7 @@ const Skills = () => {
                         />
                     </div>
 
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-200 hover:scale-105'>
+                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p:1 md:p-2 hover:shadow-slate-300/60 ease-in duration-200 hover:scale-105'>
                         <Image
                         src={ImagenNext}
                         alt='/'
@@ -55,7 +55,7 @@ const Skills = () => {
                         />
                     </div>
 
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-200 hover:scale-105'>
+                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p:1 md:p-2 hover:shadow-slate-300/60 ease-in duration-200 hover:scale-105'>
                         <Image
                         src={ImagenSass}
                         alt='/'
@@ -64,7 +64,7 @@ const Skills = () => {
                         />
                     </div>
 
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-200 hover:scale-105'>
+                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p:1 md:p-2 hover:shadow-slate-300/60 ease-in duration-200 hover:scale-105'>
                         <Image
                         src={ImagenTailwind}
                         alt='/'

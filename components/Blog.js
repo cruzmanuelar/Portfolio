@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Blog = () => {
   return (
-    <div id='blog' className='w-full h-screen md:px-20'>
+    <div id='blog' className='w-full md:px-20'>
 
       <div className='text-center pt-20 pb-4'>
           <h2 className='uppercase titulo'>
@@ -16,7 +16,7 @@ const Blog = () => {
 
       <div className='flex flex-col md:space-between md:flex-row items-center justify-center'>
 
-        <div className='hidden md:flex w-1/2'>
+        <div className='hidden md:flex w-1/2 justify-center'>
             <Image
               src={ImagenPython}
               alt='/'
