@@ -2,7 +2,6 @@ import React from 'react';
 import ImagenPython from '../public/assets/python-icon.svg';
 import Image from 'next/image';
 import ImagenPost from '../public/assets/projects/python.png';
-import Link from 'next/link';
 
 const Blog = () => {
   return (

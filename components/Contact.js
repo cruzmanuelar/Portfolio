@@ -1,7 +1,5 @@
 import React from "react";
 import {
-  AiOutlineClose,
-  AiOutlineMenu,
   AiOutlineMail,
   AiFillInstagram,
 } from "react-icons/ai";
