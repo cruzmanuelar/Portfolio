@@ -8,11 +8,11 @@ const Main = () => {
                 <h1 className='my-3 akshar name'>Manuel Cruz</h1>
                 <p id='rol' className='akshar upeercase my-2 text-lg text-white'>Desarrollador Fronted - React</p>
 
-                <button className="mx-1 bg-[#1f1d1d] border-2 border-slate-300 hover:border-slate-200 my-2 p-2 px-8 cursor-pointer hover:scale-y-105 ease-in duration-200">
+                <button className="mx-1 bg-[#1f1d1d] border-2 border-slate-300 hover:border-slate-200 hover:bg-slate-300 hover:text-black my-2 p-2 px-8 cursor-pointer hover:scale-y-105 ease-in duration-200">
                   <a href='/assets/descargas/CV_Manuel.pdf' download>Descargar CV</a>
                 </button>
                 
-                <button className="mx-1 bg-[#1f1d1d] border-2 border-slate-300 hover:border-slate-200 my-2 p-2 px-8 cursor-pointer hover:scale-y-105 ease-in duration-200">
+                <button className="mx-1 bg-[#1f1d1d] border-2 border-slate-300 hover:border-slate-200 my-2 p-2 px-8 cursor-pointer hover:scale-y-105 ease-in duration-200 hover:bg-slate-300 hover:text-black">
                   <a href='#about'>Sobre mí</a>
                 </button>
             </div>

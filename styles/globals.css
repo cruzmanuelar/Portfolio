@@ -18,12 +18,13 @@ html {
 
 .name{
   font-weight: bold;
+  /* bg-[#1c1c1c] */
 }
 
 @layer base {
   
   body {
-    @apply bg-[#1c1c1c] text-[#fdfdfd]
+    @apply text-[#fdfdfd] bg-gradient-to-b from-[#131212] to-neutral-800 via-stone-900 select-none
   }
 
   h1 {

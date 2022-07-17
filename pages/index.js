@@ -51,7 +51,7 @@ export default function Home() {
       <Contact/>
 
       {botonarriba === true &&
-      <button className='fixed border-2 bg-[#131212] rounded-md bottom-12 right-12' style={{
+      <button className='fixed border-2  hover:-translate-y-3 duration-100 bg-[#131212] rounded-md bottom-12 right-12' style={{
         fontSize: "50px"
         }}
         onClick={topPage}>

@@ -61,7 +61,7 @@ const NavBar = () => {
                         <div>
                             <div className='flex w-full items-center justify-between'>
                                 <Gi3DMeeple size={40}/>
-                                <div onClick={handleNav} className='rounded-full shadow-sm shadow-gray-400 p-3 cursor-pointer'>
+                                <div onClick={handleNav} className='rounded-full shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200'>
                                     <AiOutlineClose/>
                                 </div>
                             </div>

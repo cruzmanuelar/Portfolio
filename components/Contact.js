@@ -18,11 +18,11 @@ const Contact = () => {
 
       <div className="flex flex-col md:space-between md:flex-row items-center justify-center">
         
-        <div className="hidden md:flex w-1/2 mx-5 akshar">
+        <div className="hidden md:flex w-1/2 mx-5 akshar select-text">
           <p>Puedes contactarme a través del formulario o escribirme al correo: cruzmanuelar@gmail.com</p>
         </div>
 
-        <div className='w-2/3 md:w-1/2 akshar bg-[#282727] shadow-xl p-2 rounded-md
+        <div className='w-2/3 md:w-1/2 akshar bg-[#282727] shadow-xl p-2 rounded-sm
         flex flex-col justify-center items-center'>
           <form className="flex flex-col w-full px-4">
           
@@ -40,7 +40,7 @@ const Contact = () => {
             <textarea id="mensaje" rows="6" className="border-2 border-gray-500 block rounded-sm p-1 w-full text-sm text-white-200 bg-white dark:bg-[#201e1e] focus:ring-0 dark:text-white dark:placeholder-gray-400" placeholder="" required></textarea>
 
             <div className="flex flex-col items-center">
-            <button className="w-1/2 bg-[#1f1d1d] border-slate-300 hover:border-slate-200 border-2 min-w-max bg-black-400 my-2 p-2 cursor-pointer hover:scale-x-105 ease-in duration-200">
+            <button className="w-1/2 bg-[#1f1d1d] border-slate-300 hover:border-slate-200 border-2 min-w-max bg-black-400 my-2 p-2 cursor-pointer hover:scale-x-105 ease-in duration-200 hover:bg-slate-300 hover:text-black">
               Enviar
             </button>
             </div>
