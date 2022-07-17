@@ -8,6 +8,7 @@ import ImagenNext from '../public/assets/next-icon.webp';
 import ImagenPostman from '../public/assets/getpostman-icon.svg';
 import ImagenFigma from '../public/assets/figma-icon.svg';
 import ImagenSass from '../public/assets/sass-lang-icon.svg';
+import ImagenTailwind from '../public/assets/tailwindcss-icon.svg';
 
 const Skills = () => {
 
@@ -18,16 +19,16 @@ const Skills = () => {
         <div className='flex flex-col md:space-between md:flex-col justify-center items-center w-full h-screen md:px-30'>
 
             <div className='text-center'>
-                <h1 className='uppercase'>
+                <h2 className='uppercase titulo'>
                     Habilidades
-                </h1>
+                </h2>
             </div>
 
             <div className='w-100'>
-                <h3 className='text-center my-2'>Programación</h3>
+                <h3 className='text-center my-5'>Programación</h3>
                 <div className='flex'>
 
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300'>
+                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-200 hover:scale-105'>
                         <Image
                         src={ImagenJS}
                         alt='/'
@@ -36,7 +37,7 @@ const Skills = () => {
                         />
                     </div>
                     
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300'>
+                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-200 hover:scale-105'>
                         <Image
                         src={ImagenReact}
                         alt='/'
@@ -45,7 +46,7 @@ const Skills = () => {
                         />
                     </div>
 
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300'>
+                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-200 hover:scale-105'>
                         <Image
                         src={ImagenNext}
                         alt='/'
@@ -54,7 +55,7 @@ const Skills = () => {
                         />
                     </div>
 
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300'>
+                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-200 hover:scale-105'>
                         <Image
                         src={ImagenSass}
                         alt='/'
@@ -63,13 +64,23 @@ const Skills = () => {
                         />
                     </div>
 
+                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-200 hover:scale-105'>
+                        <Image
+                        src={ImagenTailwind}
+                        alt='/'
+                        width='80'
+                        height='80'
+                        />
+                    </div>
+
+
                 </div>
             </div>
             
             <div className='w-100'>
                 <h3 className='text-center my-5'>Herramientas</h3>
                 <div className='flex'>
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300'>
+                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-200 hover:scale-105'>
                         <Image
                         src={ImagenPostman}
                         alt='/'
@@ -78,7 +89,7 @@ const Skills = () => {
                         />
                     </div>
 
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300'>
+                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-200 hover:scale-105'>
                         <Image
                         src={ImagenFigma}
                         alt='/'
@@ -87,7 +98,7 @@ const Skills = () => {
                         />
                     </div>
 
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300'>
+                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-200 hover:scale-105'>
                         <Image
                         src={ImagenGit}
                         alt='/'
@@ -96,7 +107,7 @@ const Skills = () => {
                         />
                     </div>
 
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300'>
+                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-200 hover:scale-105'>
                         <Image
                         src={ImagenTrello}
                         alt='/'

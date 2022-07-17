@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Main from '../components/Main';
@@ -6,8 +7,34 @@ import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import Blog from '../components/Blog';
 import Contact from '../components/Contact';
+import { AiFillCaretUp } from "react-icons/ai";
 
 export default function Home() {
+
+  const [botonarriba, setBotonarriba] = useState(false);
+
+  useEffect(()=>{
+    window.addEventListener('scroll',scrollUp);
+
+    return () => {
+      window.removeEventListener('scroll',scrollUp);
+    }
+  },[])
+
+  const scrollUp = () =>{
+    if(window.pageYOffset > 450){
+      setBotonarriba(true);
+    }else{
+      setBotonarriba(false);
+    }
+  }
+
+  const topPage = () => {
+    window.scrollTo({
+      top:0,
+  })
+  }
+
   return (
     <div>
       <Head>
@@ -22,6 +49,15 @@ export default function Home() {
       <Projects/>
       <Blog/>
       <Contact/>
+
+      {botonarriba === true &&
+      <button className='fixed border-2 bg-[#131212] rounded-md bottom-12 right-12' style={{
+        fontSize: "50px"
+        }}
+        onClick={topPage}>
+        <AiFillCaretUp />
+      </button>
+      }
     </div>
   )
 }

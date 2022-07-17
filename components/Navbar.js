@@ -97,20 +97,19 @@ const NavBar = () => {
                                 </Link>
                             </ul>
                             <div className=''>
-                                <p className='uppercase'>Redes sociales</p>
                                 <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                                    <div className='rounded-full shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                        <FaLinkedinIn/>
-                                    </div>
-                                    <div className='rounded-full shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                        <FaGithub/>
-                                    </div>
-                                    <div className='rounded-full shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                        <AiOutlineMail/>
-                                    </div>
-                                    <div className='rounded-full shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                        <AiFillInstagram/>
-                                    </div>
+                                <a href="https://www.linkedin.com/in/cruzmanuelar/" target='_blank' className="rounded-full shadow-sm shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                                <FaLinkedinIn />
+                                </a>
+                                <a href="https://github.com/cruzmanuelar" target='_blank' className="rounded-full shadow-sm shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                                <FaGithub />
+                                </a>
+                                <a href="#contact" className="rounded-full shadow-sm shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                                <AiOutlineMail />
+                                </a>
+                                <a href="https://www.instagram.com/codigo.python/" target='_blank'  className="rounded-full shadow-sm shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                                <AiFillInstagram />
+                                </a>
                                 </div>
                             </div>
                         </div>

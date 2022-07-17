@@ -7,9 +7,9 @@ const Projects = () => {
     <div id='projects' className='w-full h-screen md:px-20'>
 
     <div className='text-center pt-20 pb-4'>
-        <h1 className='uppercase'>
+        <h2 className='uppercase titulo'>
             Proyectos
-        </h1>
+        </h2>
     </div>
 
     </div>

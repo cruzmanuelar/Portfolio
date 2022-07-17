@@ -9,9 +9,9 @@ const Blog = () => {
     <div id='blog' className='w-full h-screen md:px-20'>
 
       <div className='text-center pt-20 pb-4'>
-          <h1 className='uppercase'>
+          <h2 className='uppercase titulo'>
               Blog
-          </h1>
+          </h2>
       </div>
 
       <div className='flex flex-col md:space-between md:flex-row items-center justify-center'>
@@ -28,7 +28,7 @@ const Blog = () => {
 
         <div className='w-2/3 md:w-1/2 bg-[#282727] shadow-xl p-2 rounded-md
         flex flex-col justify-center items-center px-10'>
-            <p className='my-4'>
+            <p className='my-4 akshar'>
             También tengo conocimientos en Python, cuento con una cuenta como creador donde subo contenido enseñando el lenguaje a 3k de personas
             </p>
             <Image
@@ -38,7 +38,7 @@ const Blog = () => {
               height='250'
             />
 
-            <a target="_blank" href='https://www.instagram.com/codigo.python/'  className="border-2 min-w-max border-slate-300 hover:border-slate-200 my-2 p-2 px-8 w-100">
+            <a target="_blank" href='https://www.instagram.com/codigo.python/'  className="border-2 min-w-max bg-[#1f1d1d] border-slate-300 hover:border-slate-200 my-2 p-2 px-8 w-100 cursor-pointer hover:scale-x-105 ease-in duration-200">
               Ir a @codigo.python
             </a>
         </div>
