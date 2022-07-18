@@ -3,7 +3,7 @@ import Link from 'next/link';
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail,AiFillInstagram} from 'react-icons/ai';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import {Gi3DMeeple} from 'react-icons/gi';
-
+import { FaReact } from "react-icons/fa";
 const NavBar = () => {
 
     const [nav, setNav] = useState(false);
@@ -13,13 +13,13 @@ const NavBar = () => {
     }
 
     return(
-        <div className='fixed w-full h-20 shadow-xl z-[100] bg-[#131212]'>
+        <div className='fixed w-full h-16 shadow-xl z-[100] bg-[#131212]'>
 
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 
-                <Link href='/'>
-                    <Gi3DMeeple size={40}/>
-                </Link>
+                <div>
+                    <FaReact className='spin-call' size={40}/>
+                </div>
 
                 <div className=''>
                     <ul className='hidden md:flex'>
@@ -39,10 +39,10 @@ const NavBar = () => {
                             <li className='ml-10 text-sm uppercase hover:border-b  cursor-pointer'>Proyectos
                             </li>
                         </Link>
-                        <Link href='/#blog'>
+                        {/* <Link href='/#blog'>
                             <li className='ml-10 text-sm uppercase hover:border-b  cursor-pointer'>Blog
                             </li>
-                        </Link>
+                        </Link> */}
                         <Link href='/#contact'>
                             <li className='ml-10 text-sm uppercase hover:border-b  cursor-pointer'>Contacto
                             </li>
@@ -60,7 +60,7 @@ const NavBar = () => {
                             : 'fixed left-[-200%] top-0 p-10 ease-in duration-500'}>
                         <div>
                             <div className='flex w-full items-center justify-between'>
-                                <Gi3DMeeple size={40}/>
+                                <FaReact className='spin-call' size={40}/>
                                 <div onClick={handleNav} className='rounded-full shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-200'>
                                     <AiOutlineClose/>
                                 </div>
@@ -87,10 +87,10 @@ const NavBar = () => {
                                     <li className='py-4 text-sm cursor-pointer'>Proyectos
                                     </li>
                                 </Link>
-                                <Link href='/#blog'>
+                                {/* <Link href='/#blog'>
                                     <li className='py-4 text-sm cursor-pointer'>Blog
                                     </li>
-                                </Link>
+                                </Link> */}
                                 <Link href='/#contact'>
                                     <li className='py-4 text-sm cursor-pointer'>Contacto
                                     </li>

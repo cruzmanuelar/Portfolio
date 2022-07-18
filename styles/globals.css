@@ -18,7 +18,6 @@ html {
 
 .name{
   font-weight: bold;
-  /* bg-[#1c1c1c] */
 }
 
 @layer base {
@@ -37,5 +36,18 @@ html {
 
   h3 {
     @apply text-2xl sm:text-2xl md:text-3xl
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .spin-call{
+    animation: spin infinite 7s linear;
   }
 }

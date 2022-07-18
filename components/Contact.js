@@ -7,20 +7,16 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full md:px-20">
+    <div id="contact" className="w-full h-screen md:px-20">
 
-      <div className="text-center pt-20 pb-4">
-        <h2 className="uppercase titulo">Contacto</h2>
-      </div>
+      <div className="flex flex-col h-full md:space-between items-center justify-center">
 
-
-      <div className="flex flex-col md:space-between md:flex-row items-center justify-center">
-        
-        <div className="hidden md:flex w-1/2 mx-5 akshar select-text">
-          <p>Puedes contactarme a través del formulario o escribirme al correo: cruzmanuelar@gmail.com</p>
+        <div className="text-center mt-20 pb-4">
+          <h2 className="uppercase titulo">Contacto</h2>
         </div>
 
-        <div className='w-2/3 md:w-1/2 akshar bg-[#282727] shadow-xl p-2 rounded-sm
+
+        <div className='w-2/3 md:w-2/5 akshar bg-[#282727] shadow-xl p-2 rounded-sm
         flex flex-col justify-center items-center px-10'>
           <form className="flex flex-col w-full px-4">
           
@@ -43,12 +39,11 @@ const Contact = () => {
             </button>
             </div>
           </form>
-
         </div>
 
       </div>
 
-      <div className="flex flex-row justify-center space-x-4 my-3">
+      <div className="flex flex-row justify-center space-x-4 py-3">
         <a href="https://www.linkedin.com/in/cruzmanuelar/" rel="noreferrer"  target='_blank' className="rounded-full shadow-sm shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
           <FaLinkedinIn />
         </a>
@@ -62,6 +57,8 @@ const Contact = () => {
           <AiFillInstagram />
         </a>
       </div>
+
+
     </div>
   );
 };
