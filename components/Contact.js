@@ -17,8 +17,8 @@ const Contact = () => {
 
 
         <div className='w-2/3 sm:w-1/2 md:w-2/5 akshar bg-[#282727] shadow-xl p-2 rounded-sm
-        flex flex-col justify-center items-center px-10'>
-          <form className="flex flex-col w-full px-4">
+        flex flex-col justify-center items-center px-5 md:px-10'>
+          <form className="flex flex-col w-full px-1 md:px-4">
           
             <label htmlFor="correo" className="block my-2 text-sm font-medium text-white-900">Correo remitente:</label>
 
