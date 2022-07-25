@@ -16,7 +16,7 @@ const Contact = () => {
         </div>
 
 
-        <div className='w-2/3 md:w-2/5 akshar bg-[#282727] shadow-xl p-2 rounded-sm
+        <div className='w-2/3 sm:w-1/2 md:w-2/5 akshar bg-[#282727] shadow-xl p-2 rounded-sm
         flex flex-col justify-center items-center px-10'>
           <form className="flex flex-col w-full px-4">
           

@@ -51,10 +51,10 @@ const Projects = () => {
               <span className="bg-blue-600 px-2 rounded-full text-sm mx-2 my-1">Bootstrap</span>
             </div>
             <div className="flex justify-around my-1">
-              <a href="https://github.com/cruzmanuelar/sis_canje_fronted" rel="noreferrer" className="cursor-pointer">
+              <a href="https://github.com/cruzmanuelar/ReactApiPixabay" rel="noreferrer" target='_blank' className="cursor-pointer">
               <AiFillGithub size={20} />
               </a>
-              <a href="https://github.com/cruzmanuelar/sis_canje_fronted" rel="noreferrer" className="cursor-pointer">
+              <a href="https://react-api-pixabay.vercel.app" rel="noreferrer" target='_blank' className="cursor-pointer">
               <BiLinkExternal size={20}/>
               </a>
             </div>
@@ -74,10 +74,10 @@ const Projects = () => {
             </div>
 
             <div className="flex justify-around my-1">
-            <a href="https://github.com/cruzmanuelar/sis_canje_fronted" rel="noreferrer" className="cursor-pointer">
+            <a href="https://github.com/frankpomiano19/Proyecto-dRemate" rel="noreferrer" target='_blank' className="cursor-pointer">
             <AiFillGithub size={20} />
             </a>
-            <a href="https://github.com/cruzmanuelar/sis_canje_fronted" rel="noreferrer" className="cursor-pointer">
+            <a href="https://dremate.herokuapp.com" rel="noreferrer" target='_blank' className="cursor-pointer">
             <BiLinkExternal size={20} />
             </a>
             </div>
@@ -95,10 +95,10 @@ const Projects = () => {
               <span className="bg-amber-400 px-2 rounded-full text-sm mx-2 my-1">SQL</span>
             </div>
             <div className="flex justify-around my-1">
-            <a href="https://github.com/cruzmanuelar/sis_canje_fronted" rel="noreferrer" className="cursor-pointer">
+            <a href="https://github.com/HuamanAngel/TalentWork" rel="noreferrer" className="cursor-pointer">
             <AiFillGithub size={20}  />
             </a>
-            <a href="https://github.com/cruzmanuelar/sis_canje_fronted" rel="noreferrer" className="cursor-pointer">
+            <a href="http://talentwork.herokuapp.com/" rel="noreferrer" className="cursor-pointer">
             <BiLinkExternal size={20}  />
             </a>
             </div>
