@@ -54,7 +54,7 @@ const Contact = () => {
           <AiOutlineMail />
         </a>
         <a href="https://www.instagram.com/codigo.python/" target='_blank'  rel="noreferrer" className="rounded-full shadow-sm shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
-          <AiFillInstagram />
+          <AiFillInstagram/>
         </a>
       </div>
 

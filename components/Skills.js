@@ -30,7 +30,7 @@ const Skills = () => {
                 <h3 className='text-center my-5'>Programación</h3>
                 <div className='flex'>
 
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p:1 md:p-2 hover:shadow-slate-300/60 ease-in duration-500 hover:scale-105 hover:bg-yellow-300'>
+                    <div className='mx-3 md:mx-5 shadow-lg shadow-slate-300/30 rounded-md p:1 md:p-2 hover:shadow-slate-300/60 ease-in duration-300 hover:scale-105 hover:bg-yellow-300'>
                         <Image
                         src={ImagenJS}
                         alt='/'
@@ -39,7 +39,7 @@ const Skills = () => {
                         />
                     </div>
                     
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p:1 md:p-2 hover:shadow-slate-300/60 ease-in duration-500 hover:scale-105 hover:bg-slate-700'>
+                    <div className='mx-3 md:mx-5 shadow-lg shadow-slate-300/30 rounded-md p:1 md:p-2 hover:shadow-slate-300/60 ease-in duration-300 hover:scale-105 hover:bg-slate-700'>
                         <Image
                         src={ImagenReact}
                         alt='/'
@@ -48,7 +48,7 @@ const Skills = () => {
                         />
                     </div>
 
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p:1 md:p-2 hover:shadow-slate-300/60 ease-in duration-500 hover:scale-105'>
+                    <div className='mx-3 md:mx-5 shadow-lg shadow-slate-300/30 rounded-md p:1 md:p-2 hover:shadow-slate-300/60 ease-in duration-300 hover:scale-105'>
                         <Image
                         src={ImagenNext}
                         alt='/'
@@ -57,7 +57,7 @@ const Skills = () => {
                         />
                     </div>
 
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p:1 md:p-2 hover:shadow-slate-300/60 ease-in duration-500 hover:scale-105 hover:bg-gray-300'>
+                    <div className='mx-3 md:mx-5 shadow-lg shadow-slate-300/30 rounded-md p:1 md:p-2 hover:shadow-slate-300/60 ease-in duration-300 hover:scale-105 hover:bg-gray-300'>
                         <Image
                         src={ImagenSass}
                         alt='/'
@@ -66,7 +66,7 @@ const Skills = () => {
                         />
                     </div>
 
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p:1 md:p-2 hover:shadow-slate-300/60 ease-in duration-500 hover:scale-105 hover:bg-blue-700'>
+                    <div className='mx-3 md:mx-5 shadow-lg shadow-slate-300/30 rounded-md p:1 md:p-2 hover:shadow-slate-300/60 ease-in duration-300 hover:scale-105 hover:bg-blue-700'>
                         <Image
                         src={ImagenTailwind}
                         alt='/'
@@ -82,7 +82,7 @@ const Skills = () => {
             <div className='w-100'>
                 <h3 className='text-center my-5'>Herramientas</h3>
                 <div className='flex'>
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-500 hover:scale-105 hover:bg-gray-300'>
+                    <div className='mx-3 md:mx-5 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300 hover:scale-105 hover:bg-gray-300'>
                         <Image
                         src={ImagenPostman}
                         alt='/'
@@ -91,7 +91,7 @@ const Skills = () => {
                         />
                     </div>
 
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-500 hover:scale-105 hover:bg-gray-300'>
+                    <div className='mx-3 md:mx-5 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300 hover:scale-105 hover:bg-gray-300'>
                         <Image
                         src={ImagenFigma}
                         alt='/'
@@ -100,7 +100,7 @@ const Skills = () => {
                         />
                     </div>
 
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-500 hover:scale-105 hover:bg-gray-300'>
+                    <div className='mx-3 md:mx-5 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300 hover:scale-105 hover:bg-gray-300'>
                         <Image
                         src={ImagenGit}
                         alt='/'
@@ -109,7 +109,7 @@ const Skills = () => {
                         />
                     </div>
 
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-500 hover:scale-105 hover:bg-gray-300'>
+                    <div className='mx-3 md:mx-5 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300 hover:scale-105 hover:bg-gray-300'>
                         <Image
                         src={ImagenTrello}
                         alt='/'
@@ -122,10 +122,10 @@ const Skills = () => {
             </div>
 
             <div className='w-100'>
-                <h3 className='text-center my-5'>En equipo, he desarrollado con:</h3>
+                <h3 className='text-center my-5'>También con experiencia en:</h3>
                 <div className='flex justify-center'>
 
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-500 hover:scale-105 hover:bg-slate-700'>
+                    <div className='mx-5 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300 hover:scale-105 hover:bg-slate-700'>
                         <Image
                         src={ImagenLaravel}
                         alt='/'
@@ -134,7 +134,7 @@ const Skills = () => {
                         />
                     </div>
 
-                    <div className='mx-4 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-500 hover:scale-105 hover:bg-gray-300'>
+                    <div className='mx-5 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300 hover:scale-105 hover:bg-gray-300'>
                         <Image
                         src={ImagenMysql}
                         alt='/'

@@ -1,15 +1,14 @@
 import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+// import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
-import projects from "../public/assets/proyectos";
 import coKanje from "../public/assets/projects/coKanje.png";
+import pixabay from "../public/assets/projects/pixabay.png";
+import dremate from "../public/assets/projects/dremate.png";
+import talentWork from "../public/assets/projects/talentWork.png";
+import {AiFillGithub} from 'react-icons/ai';
+import {BiLinkExternal} from 'react-icons/bi';
 
 const Projects = () => {
-  const [proyecto, setProyecto] = useState({id:null,nombre:'',repositorio:'',enlace:''});
-
-  const clearProject = () =>{
-    setProyecto({...proyecto, id:null,nombre:'',repositorio:'',enlace:''});
-  }
 
   return (
     <div id="projects" className="w-full md:px-20">
@@ -17,55 +16,94 @@ const Projects = () => {
         
         <h2 className="uppercase titulo">Proyectos</h2>
 
-        <div className="hidden relative flex flex-wrap cursor-pointer">
-
-          {projects.map(project => (
-          <motion.div
-            className='w-1/2 px-2 md:w-1/3'
-            layoutId={project.id}
-            key={project.id}
-            onClick={() => setProyecto({...proyecto, id:project.id,nombre:project.nombre,repositorio:project.repositorio,enlace:project.enlace})}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            >
-            <p>{project.nombre}</p>
+        <div className="grid mx-4 md:mx-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 mt-4">
+          
+          <div className="bg-neutral-900 rounded-md rounded-b-md shadow-md shadow-slate-300/30 duration-300 hover:scale-105 mx-2 hover:bg-black">
+            <h4 className="bg-black rounded-md py-1">coKanje</h4>
             <Image
-            // layout="fill"
-            height='200px'
-            width='400px'
-            src={project.imagen}
+            src={coKanje}
             />
-          </motion.div>
+            <div className="flex flex-wrap justify-center">
 
-        ))}
+              <span className="bg-red-600 px-2 rounded-full text-sm mx-2 my-1">React</span>
+              <span className="bg-blue-600 px-2 rounded-full text-sm mx-2 my-1">Laravel</span>
+              <span className="bg-green-600 px-2 rounded-full text-sm mx-2 my-1">React-Bootstrap</span>
+              <span className="bg-amber-400 px-2 rounded-full text-sm mx-2 my-1">SQL</span>
+            </div>
 
-
-          <div className="absolute top-0 right-1/2flex justify-center">
-            <AnimatePresence
-              initial={{ opacity: 0, scale: 0.75 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0 }}
-            >
-              {proyecto.id && (
-                <motion.div
-                  layoutId={proyecto.id}
-                  onClick={clearProject}
-                  style={{
-                    width: "400px",
-                    top: "0px",
-                    height: 400,
-                    border: "1px solid white",
-                    backgroundColor: "red",
-                  }}
-                  
-                >
-                  <motion.button onClick={clearProject} />
-                  <div>{proyecto.nombre}</div>
-                </motion.div>
-              )}
-            </AnimatePresence>
+            <div className="flex justify-around my-1">
+              <a href="https://github.com/cruzmanuelar/sis_canje_fronted" rel="noreferrer" target='_blank' className="cursor-pointer">
+              <AiFillGithub size={20}/>
+              </a>
+              <a href="https://cokanje.vercel.app" rel="noreferrer" target='_blank' className="cursor-pointer">
+              <BiLinkExternal size={20} />
+              </a>
+            </div>
           </div>
+
+          <div className="bg-neutral-900 rounded-md shadow-md shadow-slate-300/30 duration-300 hover:scale-105 mx-2 hover:bg-black">
+          <h4 className="bg-black rounded-md py-1">apiPixabay</h4>
+            <Image
+            src={pixabay}
+            />
+            <div className="flex flex-wrap justify-center">
+              <span className="bg-red-600 px-2 rounded-full text-sm mx-2 my-1">React</span>
+              <span className="bg-blue-600 px-2 rounded-full text-sm mx-2 my-1">Bootstrap</span>
+            </div>
+            <div className="flex justify-around my-1">
+              <a href="https://github.com/cruzmanuelar/sis_canje_fronted" rel="noreferrer" className="cursor-pointer">
+              <AiFillGithub size={20} />
+              </a>
+              <a href="https://github.com/cruzmanuelar/sis_canje_fronted" rel="noreferrer" className="cursor-pointer">
+              <BiLinkExternal size={20}/>
+              </a>
+            </div>
+          </div>
+
+          <div className="bg-neutral-900 rounded-md shadow-md shadow-slate-300/30 duration-300 hover:scale-105 mx-2 hover:bg-black">
+          <h4 className="bg-black rounded-md py-1">dRemate</h4>
+            <Image
+            src={dremate}
+            />
+
+            <div className="flex flex-wrap justify-center">
+              <span className="bg-red-600 px-2 rounded-full text-sm mx-2 my-1">Livewire</span>
+              <span className="bg-blue-600 px-2 rounded-full text-sm mx-2 my-1">Laravel</span>
+              <span className="bg-green-600 px-2 rounded-full text-sm mx-2 my-1">Bootstrap</span>
+              <span className="bg-amber-400 px-2 rounded-full text-sm mx-2 my-1">SQL</span>
+            </div>
+
+            <div className="flex justify-around my-1">
+            <a href="https://github.com/cruzmanuelar/sis_canje_fronted" rel="noreferrer" className="cursor-pointer">
+            <AiFillGithub size={20} />
+            </a>
+            <a href="https://github.com/cruzmanuelar/sis_canje_fronted" rel="noreferrer" className="cursor-pointer">
+            <BiLinkExternal size={20} />
+            </a>
+            </div>
+          </div>
+
+          <div className="bg-neutral-900 rounded-md shadow-md shadow-slate-300/30 duration-300 hover:scale-105 mx-2 hover:bg-black">
+            <h4 className="bg-black rounded-md py-1">talentWork</h4>
+            <Image
+            src={talentWork}
+            />
+            <div className="flex flex-wrap justify-center">
+              <span className="bg-red-600 px-2 rounded-full text-sm mx-2 my-1">Livewire</span>
+              <span className="bg-blue-600 px-2 rounded-full text-sm mx-2 my-1">Laravel</span>
+              <span className="bg-green-600 px-2 rounded-full text-sm mx-2 my-1">Bootstrap</span>
+              <span className="bg-amber-400 px-2 rounded-full text-sm mx-2 my-1">SQL</span>
+            </div>
+            <div className="flex justify-around my-1">
+            <a href="https://github.com/cruzmanuelar/sis_canje_fronted" rel="noreferrer" className="cursor-pointer">
+            <AiFillGithub size={20}  />
+            </a>
+            <a href="https://github.com/cruzmanuelar/sis_canje_fronted" rel="noreferrer" className="cursor-pointer">
+            <BiLinkExternal size={20}  />
+            </a>
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>

@@ -9,7 +9,7 @@ const About = () => {
         </div>
 
 
-        <div className='mt-20 w-2/3 sm:w-2/3 md:w-1/2 lg:1/2 bg-[#282727] shadow-xl p-6 rounded-md
+        <div className='mt-20 w-2/3 sm:w-2/3 md:w-2/3 lg:1/2 bg-[#282727] shadow-xl p-6 rounded-md
         flex flex-col justify-center items-center px-10'>
             <h2 className='text-center my-4 titulo'>SOBRE MI</h2>
             <p className='my-4 akshar'>
