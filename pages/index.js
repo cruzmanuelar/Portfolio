@@ -10,6 +10,7 @@ import { AiFillCaretUp } from "react-icons/ai";
 
 export default function Home() {
 
+
   const [botonarriba, setBotonarriba] = useState(false);
 
   useEffect(()=>{
@@ -46,7 +47,6 @@ export default function Home() {
       <About/>
       <Skills/>
       <Projects/>
-      {/* <Blog/> */}
       <Contact/>
 
       {botonarriba === true &&
