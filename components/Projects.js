@@ -7,11 +7,13 @@ import dremate from "../public/assets/projects/dremate.png";
 import talentWork from "../public/assets/projects/talentWork.png";
 import {AiFillGithub} from 'react-icons/ai';
 import {BiLinkExternal} from 'react-icons/bi';
+import Fade from 'react-reveal/Fade';
 
 const Projects = () => {
 
   return (
     <div id="projects" className="w-full md:px-20">
+      <Fade bottom>
       <div className="text-center pt-20 pb-4">
         
         <h2 className="uppercase titulo">Proyectos</h2>
@@ -106,6 +108,7 @@ const Projects = () => {
           
         </div>
       </div>
+      </Fade>
     </div>
   );
 };

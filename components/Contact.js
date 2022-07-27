@@ -3,6 +3,7 @@ import { AiOutlineMail, AiFillInstagram, } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
+import Zoom from 'react-reveal/Zoom';
 
 import correoEnviado from "./alertas";
 
@@ -40,6 +41,7 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full h-screen md:px-20">
 
+      <Zoom bottom>
       <div className="flex flex-col h-full md:space-between items-center justify-center">
 
         <div className="text-center mt-20 pb-4">
@@ -71,7 +73,8 @@ const Contact = () => {
           </form>
         </div>
 
-      </div>
+        </div>
+      </Zoom>
 
       <div className="flex flex-row justify-center space-x-4 py-3">
         <a href="https://www.linkedin.com/in/cruzmanuelar/" rel="noreferrer"  target='_blank' className="icono-contact">
