@@ -7,6 +7,8 @@ import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 import { AiFillCaretUp } from "react-icons/ai";
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 
 export default function Home() {
 
@@ -43,11 +45,21 @@ export default function Home() {
         <link rel="icon" href="/react.ico" />
       </Head>
       <Navbar/>
-      <Main/>
-      <About/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
+      <Zoom>
+        <Main/>
+      </Zoom>
+      <Fade left>
+        <About/>
+      </Fade>
+      <Fade top>
+        <Skills/>
+      </Fade>
+      <Fade bottom>
+        <Projects/>
+      </Fade>
+      <Zoom bottom>
+        <Contact/>
+      </Zoom>
 
       {botonarriba === true &&
       <button className='fixed border-2  hover:-translate-y-3 duration-100 bg-[#131212] rounded-md bottom-12 right-12' style={{

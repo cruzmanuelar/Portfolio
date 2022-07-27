@@ -20,11 +20,15 @@ html {
   font-weight: bold;
 }
 
+/* #main {
+  background-image: url('../public/assets/code.jpg');
+  
+} */
 
 @layer base {
   
   body {
-    @apply text-[#fdfdfd] bg-gradient-to-b from-[#131212] to-neutral-800 via-stone-900 select-none
+    @apply text-[#fdfdfd] bg-gradient-to-b from-[#131212] to-neutral-900 via-stone-900 select-none
   }
 
   h1 {

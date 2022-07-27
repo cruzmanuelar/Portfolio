@@ -11,14 +11,12 @@ import ImagenSass from '../public/assets/sass-lang-icon.svg';
 import ImagenTailwind from '../public/assets/tailwindcss-icon.svg';
 import ImagenLaravel from '../public/assets/laravel-icon.svg';
 import ImagenMysql from '../public/assets/mysql-icon.svg';
-import Fade from 'react-reveal/Fade';
 
 const Skills = () => {
 
   return (
     <div id='skills' className=''>
 
-        <Fade top>
         <div className='flex flex-col md:space-between md:flex-col justify-center items-center w-full h-screen md:px-30'>
 
             <div className='text-center'>
@@ -148,7 +146,6 @@ const Skills = () => {
             </div>
 
             </div>
-        </Fade>
 
     </div>
   )
