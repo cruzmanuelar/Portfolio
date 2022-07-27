@@ -59,11 +59,11 @@ const Contact = () => {
 
             <label htmlFor="nombres" className="block my-2 text-sm font-medium text-white-900">Nombres:</label>
 
-            <input onChange={onChangeInput} value={formState.nombre} name='nombre' className="border-2 border-gray-500 block rounded-sm p-1 w-full text-sm text-white-200 dark:bg-[#201e1e] focus:ring-0 dark:text-white dark:placeholder-gray-400" placeholder="" required/>
+            <input onChange={onChangeInput} value={formState.nombre} name='nombre' className="border-2 border-gray-500 block rounded-sm p-1 w-full text-sm text-white-200 bg-[#201e1e] focus:ring-0 dark:text-white dark:placeholder-gray-400" placeholder="" required/>
 
 
             <label htmlFor="mensaje" className="block my-2 text-sm font-medium text-white-900">Mensaje:</label>
-            <textarea onChange={onChangeInput} value={formState.mensaje} name='mensaje' id="mensaje" rows="6" className="border-2 border-gray-500 block rounded-sm p-1 w-full text-sm text-white-200 bg-white dark:bg-[#201e1e] focus:ring-0 dark:text-white dark:placeholder-gray-400" placeholder="" required></textarea>
+            <textarea onChange={onChangeInput} value={formState.mensaje} name='mensaje' id="mensaje" rows="6" className="border-2 border-gray-500 block rounded-sm p-1 w-full text-sm text-white-200 bg-[#201e1e] focus:ring-0 dark:text-white dark:placeholder-gray-400" placeholder="" required></textarea>
 
             <div className="flex flex-col items-center">
             <button className="w-1/2 bg-[#1f1d1d] border-slate-300 hover:border-slate-200 border-2 min-w-max bg-black-400 my-2 p-2 cursor-pointer hover:scale-x-105 ease-in duration-200 hover:bg-slate-300 hover:text-black">

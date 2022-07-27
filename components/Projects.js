@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-// import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import coKanje from "../public/assets/projects/coKanje.png";
 import pixabay from "../public/assets/projects/pixabay.png";
