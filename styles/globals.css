@@ -6,17 +6,17 @@ html {
   scroll-behavior: smooth;
 }
 
-.akshar{
+.akshar {
   font-family: 'Mingzat', sans-serif;
 }
 
-.titulo{
+.titulo {
   font-family: 'PT Sans Narrow', sans-serif;
   letter-spacing: 2px;
 
 }
 
-.name{
+.name {
   font-weight: bold;
 }
 
@@ -36,6 +36,10 @@ html {
 
   h3 {
     @apply text-2xl sm:text-2xl md:text-3xl
+  }
+
+  .icono-contact {
+    @apply rounded-full shadow-sm shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-200
   }
 
   @keyframes spin {

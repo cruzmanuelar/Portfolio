@@ -17,7 +17,7 @@ const NavBar = () => {
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 
                 <div>
-                    <FaReact className='spin-call' style={{ color:'#61B5D3'}} size={40}/>
+                    <FaReact className='spin-call hover:animate-none' style={{ color:'#61B5D3'}} size={40}/>
                 </div>
 
                 <div className=''>
@@ -82,10 +82,7 @@ const NavBar = () => {
                                     <li className='py-4 text-sm cursor-pointer'>Proyectos
                                     </li>
                                 </Link>
-                                {/* <Link href='/#blog'>
-                                    <li className='py-4 text-sm cursor-pointer'>Blog
-                                    </li>
-                                </Link> */}
+
                                 <Link href='/#contact'>
                                     <li className='py-4 text-sm cursor-pointer'>Contacto
                                     </li>
@@ -93,16 +90,16 @@ const NavBar = () => {
                             </ul>
                             <div className=''>
                                 <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                                <a href="https://www.linkedin.com/in/cruzmanuelar/" target='_blank' rel="noreferrer" className="rounded-full shadow-sm shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                                <a href="https://www.linkedin.com/in/cruzmanuelar/" target='_blank' rel="noreferrer" className="icono-contact">
                                 <FaLinkedinIn />
                                 </a>
-                                <a href="https://github.com/cruzmanuelar" target='_blank' rel="noreferrer"  className="rounded-full shadow-sm shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                                <a href="https://github.com/cruzmanuelar" target='_blank' rel="noreferrer"  className="icono-contact">
                                 <FaGithub />
                                 </a>
-                                <a href="#contact" rel="noreferrer"  className="rounded-full shadow-sm shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                                <a href="#contact" rel="noreferrer"  className="icono-contact">
                                 <AiOutlineMail />
                                 </a>
-                                <a href="https://www.instagram.com/codigo.python/" target='_blank' rel="noreferrer"  className="rounded-full shadow-sm shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-200">
+                                <a href="https://www.instagram.com/codigo.python/" target='_blank' rel="noreferrer"  className="icono-contact">
                                 <AiFillInstagram />
                                 </a>
                                 </div>
