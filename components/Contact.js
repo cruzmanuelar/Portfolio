@@ -24,7 +24,7 @@ const Contact = () => {
   const enviarEmail = (e) =>{
     e.preventDefault();
 
-    emailjs.sendForm(process.env.NEXT_PUBLIC_SERVICE_ID,process.env.NEXT_PUBLIC_TEMPLATE_ID,e.target,process.env.NEXT_PUBLIC_KEY_PUBLIC)
+    emailjs.sendForm('service_2vvyvxr','template_ddzxczo',e.target,'F4ZSktT0j74lEh-B_')
     .then(response => console.log(response))
     .catch(error => console.log(error))
 
