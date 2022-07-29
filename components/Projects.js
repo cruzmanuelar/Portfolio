@@ -3,6 +3,7 @@ import coKanje from "../public/assets/projects/coKanje.png";
 import pixabay from "../public/assets/projects/pixabay.png";
 import dremate from "../public/assets/projects/dremate.png";
 import talentWork from "../public/assets/projects/talentWork.png";
+import GestionArticulos from "../public/assets/projects/GestionArticulos.png";
 import {AiFillGithub} from 'react-icons/ai';
 import {BiLinkExternal} from 'react-icons/bi';
 
@@ -99,6 +100,25 @@ const Projects = () => {
             <a href="http://talentwork.herokuapp.com/" rel="noreferrer" className="cursor-pointer">
             <BiLinkExternal size={20}  />
             </a>
+            </div>
+          </div>
+
+          <div className="bg-neutral-900 rounded-md shadow-md shadow-slate-300/30 duration-300 hover:scale-105 mx-2 hover:bg-black">
+          <h4 className="bg-black rounded-md py-1">Gestión Articulos</h4>
+            <Image
+            src={GestionArticulos}
+            />
+            <div className="flex flex-wrap justify-center">
+              <span className="bg-red-600 px-2 rounded-full text-sm mx-2 my-1">React</span>
+              <span className="bg-blue-600 px-2 rounded-full text-sm mx-2 my-1">Tailwind</span>
+            </div>
+            <div className="flex justify-around my-1">
+              <a href="https://github.com/cruzmanuelar/gestion-articulos" rel="noreferrer" target='_blank' className="cursor-pointer">
+              <AiFillGithub size={20} />
+              </a>
+              <a href="https://gestion-articulos.vercel.app" rel="noreferrer" target='_blank' className="cursor-pointer">
+              <BiLinkExternal size={20}/>
+              </a>
             </div>
           </div>
           
