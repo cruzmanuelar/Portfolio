@@ -181,10 +181,7 @@ export default function Home() {
         detectRetina: true,
       }}
     />
-
-      <Zoom>
-        <Main/>
-      </Zoom>
+      <Main/>
       <Fade left>
         <About/>
       </Fade>

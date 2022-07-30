@@ -80,7 +80,7 @@ const Skills = () => {
 
             <div className='w-100'>
                 <h3 className='text-center my-5'>Herramientas</h3>
-                <div className='flex'>
+                <div className='flex items-center'>
                     <div className='mx-3 md:mx-5 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300 hover:scale-105 hover:bg-gray-300'>
                         <Image
                         src={ImagenPostman}
@@ -88,6 +88,7 @@ const Skills = () => {
                         width='80'
                         height='80'
                         />
+                        
                     </div>
 
                     <div className='mx-3 md:mx-5 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300 hover:scale-105 hover:bg-gray-300'>
