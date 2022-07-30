@@ -85,7 +85,6 @@ export default function Home() {
           },
           modes: {
             push: {
-              // quantity: 4,
               particles_nb:1
             },
             bubble: {
@@ -182,13 +181,13 @@ export default function Home() {
       }}
     />
       <Main/>
-      <Fade left>
+      <Fade top>
         <About/>
       </Fade>
-      <Fade top>
+      <Fade bottom>
         <Skills/>
       </Fade>
-      <Fade bottom>
+      <Fade top>
         <Projects/>
       </Fade>
       <Zoom bottom>
