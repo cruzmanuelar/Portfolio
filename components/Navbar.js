@@ -12,7 +12,7 @@ const NavBar = () => {
     }
 
     return(
-        <div className='fixed w-full h-16 shadow-xl z-[100] bg-[#131212]'>
+        <div className='fixed w-full h-16 shadow-xl z-[100] bg-[#171717]'>
 
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 

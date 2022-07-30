@@ -72,7 +72,7 @@ const Contact = () => {
 
         </div>
 
-      <div className="flex flex-row justify-center space-x-4 py-3">
+      <div className="flex flex-row justify-center space-x-4 py-3 bg-[#171717]">
         <a href="https://www.linkedin.com/in/cruzmanuelar/" rel="noreferrer"  target='_blank' className="icono-contact">
           <FaLinkedinIn />
         </a>
