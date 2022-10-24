@@ -20,21 +20,7 @@ const Contact = () => {
     })
   }
 
-  const enviarEmail = (e) =>{
-    e.preventDefault();
 
-    emailjs.sendForm('service_2vvyvxr','template_ddzxczo',e.target,'F4ZSktT0j74lEh-B_')
-    .then(response => console.log(response))
-    .catch(error => console.log(error))
-
-    correoEnviado();
-    
-    setFormState({
-      correoRemitente:'',
-      nombre:'',
-      mensaje:''
-    })
-  }
 
   return (
     <div id="contact" className="w-full h-screen md:px-20">
@@ -47,7 +33,7 @@ const Contact = () => {
 
         <div className='w-2/3 sm:w-1/2 md:w-2/5 akshar bg-[#282727] shadow-xl p-2 rounded-sm
         flex flex-col justify-center items-center px-5 md:px-10'>
-          <form className="flex flex-col w-full px-1 md:px-4" onSubmit={enviarEmail}>
+          <form className="flex flex-col w-full px-1 md:px-4">
           
             <label htmlFor="correo" className="block my-2 text-sm font-medium text-white-900">Correo remitente:</label>
 
