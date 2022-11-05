@@ -98,7 +98,6 @@ const Contact = () => {
         </a>
         <ToastContainer autoClose={3000} position='bottom-right' hideProgressBar={false} pauseOnHover />
       </div>
-      <button onClick={() => correoEnviado()}>asda</button>
 
     </div>
   );
