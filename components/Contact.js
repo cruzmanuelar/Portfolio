@@ -49,7 +49,7 @@ const Contact = () => {
 
   return (
     <div id="contact" className="w-full h-screen md:px-20">
-
+        <ToastContainer autoClose={3000} className="z-10 absolute" position='bottom-center' hideProgressBar={false} pauseOnHover />
       <div className="flex flex-col h-full md:space-between items-center justify-center">
 
         <div className="text-center mt-20 pb-4">
@@ -96,7 +96,7 @@ const Contact = () => {
         <a href="https://www.instagram.com/codigo.python/" target='_blank'  rel="noreferrer" className="icono-contact">
           <AiFillInstagram/>
         </a>
-        <ToastContainer autoClose={3000} position='bottom-right' hideProgressBar={false} pauseOnHover />
+
       </div>
 
     </div>
