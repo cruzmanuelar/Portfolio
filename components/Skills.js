@@ -7,7 +7,7 @@ import ImagenTrello from '../public/assets/trello-tile.svg';
 import ImagenNext from '../public/assets/next-icon.webp';
 import ImagenPostman from '../public/assets/getpostman-icon.svg';
 import ImagenFigma from '../public/assets/figma-icon.svg';
-import ImagenSass from '../public/assets/sass-lang-icon.svg';
+import ImagenPython from '../public/assets/python.svg';
 import ImagenTailwind from '../public/assets/tailwindcss-icon.svg';
 import ImagenLaravel from '../public/assets/laravel-icon.svg';
 import ImagenMysql from '../public/assets/mysql-icon.svg';
@@ -55,7 +55,7 @@ const Skills = () => {
                         height='80'
                         />
                     </div>
-
+{/* 
                     <div className='mx-3 md:mx-5 shadow-lg shadow-slate-300/30 rounded-md p:1 md:p-2 hover:shadow-slate-300/60 ease-in duration-300 hover:scale-105 hover:bg-gray-300'>
                         <Image
                         src={ImagenSass}
@@ -63,7 +63,7 @@ const Skills = () => {
                         width='80'
                         height='80'
                         />
-                    </div>
+                    </div> */}
 
                     <div className='mx-3 md:mx-5 shadow-lg shadow-slate-300/30 rounded-md p:1 md:p-2 hover:shadow-slate-300/60 ease-in duration-300 hover:scale-105 hover:bg-blue-700'>
                         <Image
@@ -137,6 +137,15 @@ const Skills = () => {
                     <div className='mx-5 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300 hover:scale-105 hover:bg-gray-300'>
                         <Image
                         src={ImagenMysql}
+                        alt='/'
+                        width='80'
+                        height='80'
+                        />
+                    </div>
+                    
+                    <div className='mx-5 shadow-lg shadow-slate-300/30 rounded-md p-2 hover:shadow-slate-300/60 ease-in duration-300 hover:scale-105 hover:bg-gray-300'>
+                        <Image
+                        src={ImagenPython}
                         alt='/'
                         width='80'
                         height='80'

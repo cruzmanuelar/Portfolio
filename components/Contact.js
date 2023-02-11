@@ -16,12 +16,13 @@ const Contact = () => {
 
   const [ enviando, setEnviando ] = useState(false);  
 
-  const onChangeInput = (e) => {
- 
-    setFormState({
-      ...formState,[e.target.name]:e.target.value
-    })
-  }
+    const onChangeInput = (e) => {
+  
+      setFormState({
+        ...formState,[e.target.name]:e.target.value
+      })
+    }
+    
 
   const enviarEmail = async (e) =>{
 
