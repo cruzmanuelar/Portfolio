@@ -20,15 +20,13 @@ const Projects = () => {
           
           <div className="bg-neutral-900 rounded-md rounded-b-md shadow-md shadow-slate-300/30 duration-300 hover:scale-105 mx-2 hover:bg-black">
             <h4 className="bg-black rounded-md py-1">coKanje</h4>
-            <Image
-            src={coKanje}
-            />
+            <Image alt='Image-Cokanje' src={coKanje} />
             <div className="flex flex-wrap justify-center">
 
-              <span className="bg-red-600 px-2 rounded-full text-sm mx-2 my-1">React</span>
-              <span className="bg-blue-600 px-2 rounded-full text-sm mx-2 my-1">Laravel</span>
-              <span className="bg-green-600 px-2 rounded-full text-sm mx-2 my-1">React-Bootstrap</span>
-              <span className="bg-amber-400 px-2 rounded-full text-sm mx-2 my-1">SQL</span>
+              <span className="bg-[#60dbfb] px-2 text-black rounded-full text-sm mx-2 my-1">React</span>
+              <span className="bg-[#f13d2e] px-2 rounded-full text-sm mx-2 my-1">Laravel</span>
+              <span className="bg-[#60dbfb] px-2 text-black rounded-full text-sm mx-2 my-1">React-Bootstrap</span>
+              <span className="bg-[#db7533] px-2 rounded-full text-sm mx-2 my-1">SQL</span>
             </div>
 
             <div className="flex justify-around my-1">
@@ -43,12 +41,10 @@ const Projects = () => {
 
           <div className="bg-neutral-900 rounded-md shadow-md shadow-slate-300/30 duration-300 hover:scale-105 mx-2 hover:bg-black">
           <h4 className="bg-black rounded-md py-1">apiPixabay</h4>
-            <Image
-            src={pixabay}
-            />
+            <Image src={pixabay} alt="Imagen-Pixabay"/>
             <div className="flex flex-wrap justify-center">
-              <span className="bg-red-600 px-2 rounded-full text-sm mx-2 my-1">React</span>
-              <span className="bg-blue-600 px-2 rounded-full text-sm mx-2 my-1">Bootstrap</span>
+              <span className="bg-[#60dbfb] px-2 rounded-full text-black text-sm mx-2 my-1">React</span>
+              <span className="bg-[#6e2cf5] px-2 rounded-full text-sm mx-2 my-1">Bootstrap</span>
             </div>
             <div className="flex justify-around my-1">
               <a href="https://github.com/cruzmanuelar/ReactApiPixabay" rel="noreferrer" target='_blank' className="cursor-pointer">
@@ -62,15 +58,13 @@ const Projects = () => {
 
           <div className="bg-neutral-900 rounded-md shadow-md shadow-slate-300/30 duration-300 hover:scale-105 mx-2 hover:bg-black">
           <h4 className="bg-black rounded-md py-1">dRemate</h4>
-            <Image
-            src={dremate}
-            />
+            <Image src={dremate} alt="Imagen-Dremate"/>
 
             <div className="flex flex-wrap justify-center">
-              <span className="bg-red-600 px-2 rounded-full text-sm mx-2 my-1">Livewire</span>
-              <span className="bg-blue-600 px-2 rounded-full text-sm mx-2 my-1">Laravel</span>
-              <span className="bg-green-600 px-2 rounded-full text-sm mx-2 my-1">Bootstrap</span>
-              <span className="bg-amber-400 px-2 rounded-full text-sm mx-2 my-1">SQL</span>
+              <span className="bg-[#f872a8] px-2 rounded-full text-sm mx-2 my-1">Livewire</span>
+              <span className="bg-[#f13d2e] px-2 rounded-full text-sm mx-2 my-1">Laravel</span>
+              <span className="bg-[#6e2cf5] px-2 rounded-full text-sm mx-2 my-1">Bootstrap</span>
+              <span className="bg-[#db7533] px-2 rounded-full text-sm mx-2 my-1">SQL</span>
             </div>
 
             <div className="flex justify-around my-1">
@@ -85,14 +79,12 @@ const Projects = () => {
 
           <div className="bg-neutral-900 rounded-md shadow-md shadow-slate-300/30 duration-300 hover:scale-105 mx-2 hover:bg-black">
             <h4 className="bg-black rounded-md py-1">talentWork</h4>
-            <Image
-            src={talentWork}
-            />
+            <Image src={talentWork} alt="Imagen TalentWork"/>
             <div className="flex flex-wrap justify-center">
-              <span className="bg-red-600 px-2 rounded-full text-sm mx-2 my-1">Livewire</span>
-              <span className="bg-blue-600 px-2 rounded-full text-sm mx-2 my-1">Laravel</span>
-              <span className="bg-green-600 px-2 rounded-full text-sm mx-2 my-1">Bootstrap</span>
-              <span className="bg-amber-400 px-2 rounded-full text-sm mx-2 my-1">SQL</span>
+              <span className="bg-[#f872a8] px-2 rounded-full text-sm mx-2 my-1">Livewire</span>
+              <span className="bg-[#f13d2e] px-2 rounded-full text-sm mx-2 my-1">Laravel</span>
+              <span className="bg-[#6e2cf5] px-2 rounded-full text-sm mx-2 my-1">Bootstrap</span>
+              <span className="bg-[#db7533] px-2 rounded-full text-sm mx-2 my-1">SQL</span>
             </div>
             <div className="flex justify-around my-1">
             <a href="https://github.com/HuamanAngel/TalentWork" rel="noreferrer" className="cursor-pointer">
@@ -106,12 +98,10 @@ const Projects = () => {
 
           <div className="bg-neutral-900 rounded-md shadow-md shadow-slate-300/30 duration-300 hover:scale-105 mx-2 hover:bg-black">
             <h4 className="bg-black rounded-md py-1">Gestion articulos</h4>
-            <Image
-            src={GestionArticulos}
-            />
+            <Image src={GestionArticulos} alt="Imagen Gestion articulos"/>
             <div className="flex flex-wrap justify-center">
-              <span className="bg-red-600 px-2 rounded-full text-sm mx-2 my-1">React</span>
-              <span className="bg-blue-600 px-2 rounded-full text-sm mx-2 my-1">Tailwind</span>
+              <span className="bg-[#60dbfb] px-2 rounded-full text-black  text-sm mx-2 my-1">React</span>
+              <span className="bg-[#07accb] px-2 text-black rounded-full text-sm mx-2 my-1">Tailwind</span>
             </div>
             <div className="flex justify-around my-1">
               <a href="https://github.com/cruzmanuelar/gestion-articulos" rel="noreferrer" target='_blank' className="cursor-pointer">
@@ -125,13 +115,11 @@ const Projects = () => {
 
           <div className="bg-neutral-900 rounded-md shadow-md shadow-slate-300/30 duration-300 hover:scale-105 mx-2 hover:bg-black">
             <h4 className="bg-black rounded-md py-1">PokeApp</h4>
-            <Image
-            src={pokeApp}
-            />
+            <Image src={pokeApp} alt="Imagen Pokeapp"/>
             <div className="flex flex-wrap justify-center">
-              <span className="bg-red-600 px-2 rounded-full text-sm mx-2 my-1">React</span>
+              <span className="bg-[#60dbfb] px-2 rounded-full text-black text-sm mx-2 my-1">React</span>
               <span className="bg-green-600 px-2 rounded-full text-sm mx-2 my-1">Redux</span>
-              <span className="bg-blue-600 px-2 rounded-full text-sm mx-2 my-1">Tailwind</span>
+              <span className="bg-[#07accb] px-2 rounded-full text-black text-sm mx-2 my-1">Tailwind</span>
             </div>
             <div className="flex justify-around my-1">
               <a href="https://github.com/cruzmanuelar/reduxPokeApi" rel="noreferrer" target='_blank' className="cursor-pointer">

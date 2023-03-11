@@ -6,18 +6,23 @@ import About from '../components/About';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
-import { AiFillCaretUp } from "react-icons/ai";
+import { ToastContainer } from 'react-toastify';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 import { loadFull } from "tsparticles";
 import ParticlesComponent from '../components/ParticleArea/Particles';
+import ButtonUp from '../components/ButtonUp';
+import Footer from '../components/Footer';
 
 export default function Home() {
 
 
   const [botonarriba, setBotonarriba] = useState(false);
+  const [ showNotification, setShowNotificacion ] = useState(false)
 
   useEffect(()=>{
     window.addEventListener('scroll',scrollUp);
@@ -36,9 +41,9 @@ export default function Home() {
   }
 
   const topPage = () => {
-    window.scrollTo({
-      top:0,
-  })
+      window.scrollTo({
+        top:0,
+    })
   }
 
   const particlesInit = async (main) => {
@@ -57,6 +62,7 @@ export default function Home() {
         <link rel="icon" href="/react.ico" />
       </Head>
       <Navbar/>
+      <ToastContainer autoClose={3000} className="z-10 mt-20 absolute" position='top-right' hideProgressBar={false} pauseOnHover />
       <ParticlesComponent particlesInit={particlesInit} particlesLoaded={particlesLoaded}/>
       <Main/>
       <Fade top>
@@ -71,15 +77,12 @@ export default function Home() {
       <Zoom bottom>
         <Contact/>
       </Zoom>
+      <Footer/>
 
-      {botonarriba === true &&
-        <button className='fixed border-2  hover:-translate-y-3 duration-100 bg-[#131212] rounded-md bottom-12 right-12' style={{
-          fontSize: "50px"
-          }}
-          onClick={topPage}>
-          <AiFillCaretUp />
-        </button>
-      }
+      <ButtonUp
+        botonarriba={botonarriba}
+        topPage={topPage}
+      />
     </div>
   )
 }

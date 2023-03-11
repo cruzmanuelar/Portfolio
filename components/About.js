@@ -12,7 +12,7 @@ const About = () => {
           <div className='mt-20 w-2/3 sm:w-2/3 md:w-2/3 lg:1/2 bg-[#282727] shadow-xl p-6 rounded-md flex flex-col items-center px-10'>
               <h2 className='text-center my-4 titulo'>SOBRE MI</h2>
               <div className='my-2'>
-                <p className='akshar'>Estudiante de los últimos ciclos de Ingeniería de Software en la Universidad Nacional Mayor de San Marcos.
+                <p className='akshar hidden sm:block'>Estudiante de los últimos ciclos de Ingeniería de Software en la Universidad Nacional Mayor de San Marcos.
                 </p>
                 <p className='akshar'><br/>Mi objetivo es especializarme en el desarrollo Frontend con React, seguir creciendo profesionalmente y aportar mis habilidades en los proyectos que esté involucrado.
                 </p>
