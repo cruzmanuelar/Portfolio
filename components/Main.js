@@ -15,7 +15,7 @@ const Main = () => {
             <div>
               
                 <h1 className='my-3 akshar name'>Manuel Cruz</h1>
-                <p id='rol' className='akshar upeercase my-2 sm:text-xl md:text-xl text-base text-white'>Desarrollador de software FullStack Jr</p>
+                <p id='rol' className='akshar upeercase my-2 sm:text-xl md:text-xl text-base text-white'>Desarrollador web FullStack Jr</p>
                 <div className="flex flex-col sm:flex-row justify-center items-center">
 
                   <button className="mx-1 bg-[#1f1d1d] border-2 border-slate-300 hover:border-slate-200 my-2 p-2 px-8 cursor-pointer  ease-linear transition duration-300 hover:bg-slate-300 hover:text-black w-44">

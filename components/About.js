@@ -14,7 +14,7 @@ const About = () => {
               <div className='my-2'>
                 <p className='akshar hidden sm:block'>Estudiante de los últimos ciclos de Ingeniería de Software en la Universidad Nacional Mayor de San Marcos.
                 </p>
-                <p className='akshar'><br/>Mi objetivo es especializarme en el desarrollo FullStack, seguir creciendo profesionalmente y aportar mis habilidades en los proyectos que esté involucrado.
+                <p className='akshar'><br/>Mi objetivo es especializarme en el desarrollo web FullStack, seguir creciendo profesionalmente y aportar mis habilidades en los proyectos que esté involucrado.
                 </p>
                 <p className='hidden md:flex akshar'><br/>Con experiencia desarrollando aplicaciones web durante mi formación académica a través de la metodología SCRUM.
                 </p>
