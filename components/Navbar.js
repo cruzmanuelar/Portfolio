@@ -44,10 +44,7 @@ const NavBar = () => {
                             </li>
                         </Link>
                     </ul>
-                    <div onClick={()=> {
-                        handleNav(true)
-                        console.log('open')
-                    }} className='md:hidden'>
+                    <div onClick={handleNav} className='md:hidden'>
                         <AiOutlineMenu className='cursor-pointer' size={30}/>
                     </div>
                 </div>
@@ -72,41 +69,51 @@ const NavBar = () => {
                             <div className='py-4 flex flex-col'>
                                 <ul className='uppercase'>
                                     <Link href='/#main'>
-                                        <li className='py-4 text-md  cursor-pointer'>Inicio
+                                        <li 
+                                        onClick={handleNav}
+                                        className='py-3 text-md hover:border-b-2 text-md cursor-pointer'>Inicio
                                         </li>
                                     </Link>
                                     <Link href='/#about'>
-                                        <li className='py-4 text-md cursor-pointer'>Sobre mí
+                                        <li 
+                                        onClick={handleNav}
+                                        className='py-3  text-md hover:border-b-2 cursor-pointer'>Sobre mí
                                         </li>
                                     </Link>
                                     <Link href='/#skills'>
-                                        <li className='py-4 text-md cursor-pointer'>Habilidades
+                                        <li
+                                        onClick={handleNav}
+                                        className='py-3 text-md hover:border-b-2 text-md cursor-pointer'>Habilidades
                                         </li>
                                     </Link>
                                     <Link href='/#projects'>
-                                        <li className='py-4 text-md cursor-pointer'>Proyectos
+                                        <li 
+                                        onClick={handleNav}
+                                        className='py-3 text-md hover:border-b-2 text-md cursor-pointer'>Proyectos
                                         </li>
                                     </Link>
 
                                     <Link href='/#contact'>
-                                        <li className='py-4 text-md cursor-pointer'>Contacto
+                                        <li 
+                                        onClick={handleNav}
+                                        className='py-3 text-md hover:border-b-2 text-md cursor-pointer'>Contacto
                                         </li>
                                     </Link>
                                 </ul>
                             </div>
                         </div>
-                        <div className='w-full flex justify-center items-center'>
+                        <div className='w-full flex justify-center items-center space-x-2'>
                             <div className='flex items-center justify-between my-4 w-2/3 sm:w-[80%]'>
-                                <a href="https://www.linkedin.com/in/cruzmanuelar/" target='_blank' rel="noreferrer" className="icono-contact">
+                                <a href="https://www.linkedin.com/in/cruzmanuelar/" target='_blank' rel="noreferrer" className="icono-contact hover:bg-slate-700">
                                 <FaLinkedinIn />
                                 </a>
-                                <a href="https://github.com/cruzmanuelar" target='_blank' rel="noreferrer"  className="icono-contact">
+                                <a href="https://github.com/cruzmanuelar" target='_blank' rel="noreferrer"  className="icono-contact hover:bg-slate-700">
                                 <FaGithub />
                                 </a>
-                                <a href="#contact" rel="noreferrer"  className="icono-contact">
+                                <a href="#contact" rel="noreferrer"  className="icono-contact hover:bg-slate-700">
                                 <AiOutlineMail />
                                 </a>
-                                <a href="https://www.instagram.com/codigo.python/" target='_blank' rel="noreferrer"  className="icono-contact">
+                                <a href="https://www.instagram.com/codigo.python/" target='_blank' rel="noreferrer"  className="icono-contact hover:bg-slate-700">
                                 <AiFillInstagram />
                                 </a>
                             </div>

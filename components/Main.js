@@ -30,10 +30,10 @@ const Main = () => {
                       className={`${hoverCv ? 'w-1/3 ':'w-44 border-r-2'} cursor-auto bg-[#1f1d1d] border-t-2 border-l-2 border-b-2 border-slate-300 hover:border-slate-200 my-2 p-2 px-2 ease-linear duration-300`}>
                       CV
                     </button>
-                    <a className={`bg-[#1f1d1d] border-2 border-slate-300 hover:border-slate-200 hover:bg-slate-300 hover:text-black my-2 p-2 px-2 cursor-pointer ease-linear transition duration-300 ${hoverCv ? 'w-1/3':'hidden'} flex justify-center items-center`}  href='/assets/descargas/CV_Manuel.pdf' download>
+                    <a className={`bg-[#1f1d1d] border-2 border-slate-300 hover:border-slate-200 hover:bg-slate-300 hover:text-black my-2 p-2 px-2 cursor-pointer ease-linear transition duration-300 ${hoverCv ? 'w-1/3':'hidden'} flex justify-center items-center`}  href='/files/CV_CRUZ.pdf' download>
                       <BiDownload size={22}/>
                     </a>
-                    <a className={`bg-[#1f1d1d] border-t-2 border-r-2 border-b-2 border-slate-300 hover:border-slate-200 hover:bg-slate-300 hover:text-black my-2 p-2 px-2 cursor-pointer ease-linear transition duration-300 ${hoverCv ? 'w-1/3':'hidden'} flex justify-center items-center`} href='/files/CV_Manuel.pdf' target='_blank'>
+                    <a className={`bg-[#1f1d1d] border-t-2 border-r-2 border-b-2 border-slate-300 hover:border-slate-200 hover:bg-slate-300 hover:text-black my-2 p-2 px-2 cursor-pointer ease-linear transition duration-300 ${hoverCv ? 'w-1/3':'hidden'} flex justify-center items-center`} href='/files/CV_CRUZ.pdf' target='_blank'>
                       <AiFillEye size={22}/>
                     </a>
 
