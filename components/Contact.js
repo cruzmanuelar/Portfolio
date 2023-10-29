@@ -64,7 +64,7 @@ const Contact = () => {
           <form className="flex flex-col w-full px-1 md:px-4" onSubmit={enviarEmail}>
 
           
-            <label htmlFor="correo" className="block my-2 text-sm font-medium text-white-900">Remitente:</label>
+            <label htmlFor="correo" className="block my-2 text-sm font-medium text-white-900">De:</label>
 
             <input type='email' onChange={onChangeInput} value={formState.correoRemitente} name='correoRemitente' className="border-2 border-gray-500 block rounded-sm p-1 w-full text-sm text-white-200 bg-[#201e1e] dark:bg-[#201e1e] focus:ring-0 dark:text-white dark:placeholder-gray-400" placeholder="" autoComplete="off" required/>
 
